@@ -6,6 +6,108 @@
   <title>Boomer the Golden Retriever</title>
   <meta name="description" content="A Resume for Boomer" />
   <meta name="author" content="Peyton Ray" />
+
+  <style>
+    :root {
+      --body-font: "Times New Roman", Times, serif;
+      --bg-stone: rgba(232, 230, 227, 1);
+      --panel-bg: rgba(255, 255, 255, 0.95);
+      --accent: rgba(45, 85, 130, 0.95);
+      --text-color: #222;
+      --muted: #555;
+      --link-color: #0b5bd7;
+      --link-visited: #0b4fbf;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-stone);
+      font-family: var(--body-font);
+      color: var(--text-color);
+      line-height: 1.5;
+      font-size: 16px;
+      background-image: url("FBISEAL.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 450px;
+      background-attachment: fixed;
+    }
+
+    header, main, footer {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: var(--panel-bg);
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    h1, h2, h3 {
+      color: var(--accent);
+      text-align: center;
+      text-indent: 10px;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    figure {
+      text-align: center;
+    }
+
+    figure img {
+      display: block;
+      margin: 10px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    figure figcaption {
+      font-style: italic;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      background-image: url("DOGBONE.jpg");
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+      background-position: 0 4px;
+      padding-left: 34px;
+      margin-bottom: 10px;
+      min-height: 24px;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: var(--link-visited);
+    }
+
+    a:hover, a:focus {
+      color: #083c9f;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,8 +118,9 @@
       <img src="BOOMER.jpg" alt="A golden retriever sitting upright staring at the camera" width="300" />
       <figcaption>Boomer — The Goodest Boy</figcaption>
     </figure>
-    <p>
-      📍 Washington, D.C. · 📞 (555) 123‑BOOM · 📧 <a href="mailto:boomer.fbi@k9mail.com">boomer.fbi@k9mail.com</a>
+    <p style="text-align:center">
+      📍 Washington, D.C. · 📞 (555) 123-BOOM · 📧 
+      <a href="mailto:boomer.fbi@k9mail.com">boomer.fbi@k9mail.com</a>
     </p>
   </header>
 
@@ -78,20 +181,20 @@
     </section>
 
     <section id="links">
-  <h2>Professional Links</h2>
-  <ul>
-    <li>
-      <a href="https://www.fbi.gov" target="_blank" rel="noopener">
-        Federal Bureau of Investigation (FBI) Website
-      </a>
-    </li>
-    <li>
-      <a href="https://www.fbi.gov/investigate/violent-crime/working-dogs" target="_blank" rel="noopener">
-        FBI K9 Unit
-      </a>
-    </li>
-  </ul>
-</section>
+      <h2>Professional Links</h2>
+      <ul>
+        <li>
+          <a href="https://www.fbi.gov" target="_blank" rel="noopener">
+            Federal Bureau of Investigation (FBI) Website
+          </a>
+        </li>
+        <li>
+          <a href="https://www.fbi.gov/investigate/violent-crime/working-dogs" target="_blank" rel="noopener">
+            FBI K9 Unit
+          </a>
+        </li>
+      </ul>
+    </section>
   </main>
 
   <footer>
@@ -99,5 +202,6 @@
   </footer>
 </body>
 </html>
+
 
 <!-- This resume's content was created with the use of ChatGPT-->
